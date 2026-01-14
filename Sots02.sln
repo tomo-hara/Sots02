@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sots02", "Sots02\Sots02.vcxproj", "{A5ACEF86-357E-4242-96D2-58323F3D6992}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeoMathCore", "GeoMathCore\GeoMathCore.vcxproj", "{B66DF51A-CC22-4713-93F8-B480CF429B4B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeoMathTests", "GeoMathTests\GeoMathTests.vcxproj", "{593BBC23-6A27-48DC-9288-A4587451EE29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{A5ACEF86-357E-4242-96D2-58323F3D6992}.Release|x64.Build.0 = Release|x64
 		{A5ACEF86-357E-4242-96D2-58323F3D6992}.Release|x86.ActiveCfg = Release|Win32
 		{A5ACEF86-357E-4242-96D2-58323F3D6992}.Release|x86.Build.0 = Release|Win32
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Debug|x64.ActiveCfg = Debug|x64
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Debug|x64.Build.0 = Debug|x64
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Debug|x86.Build.0 = Debug|Win32
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Release|x64.ActiveCfg = Release|x64
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Release|x64.Build.0 = Release|x64
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Release|x86.ActiveCfg = Release|Win32
+		{B66DF51A-CC22-4713-93F8-B480CF429B4B}.Release|x86.Build.0 = Release|Win32
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Debug|x64.ActiveCfg = Debug|x64
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Debug|x64.Build.0 = Debug|x64
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Debug|x86.ActiveCfg = Debug|Win32
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Debug|x86.Build.0 = Debug|Win32
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Release|x64.ActiveCfg = Release|x64
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Release|x64.Build.0 = Release|x64
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Release|x86.ActiveCfg = Release|Win32
+		{593BBC23-6A27-48DC-9288-A4587451EE29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
